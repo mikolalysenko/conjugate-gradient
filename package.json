@@ -1,0 +1,46 @@
+{
+  "name": "conjugate-gradient",
+  "version": "0.0.0",
+  "description": "Conjugate gradient solver",
+  "main": "pcg.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "almost-equal": "~0.0.0",
+    "bits": "~0.1.0"
+  },
+  "devDependencies": {
+    "csr-matrix": "~0.1.4",
+    "tap": "~0.4.1"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/conjugate-gradient.git"
+  },
+  "keywords": [
+    "linear",
+    "solve",
+    "algebra",
+    "math",
+    "numerical",
+    "method",
+    "conjugate",
+    "gradient",
+    "preconditioner",
+    "jacobi",
+    "diagonal",
+    "iterative",
+    "sparse",
+    "matrix",
+    "vector",
+    "physics"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "f11e96ed2dace67dd71e2f5cdebd1a8871c894e5"
+}
