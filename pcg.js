@@ -32,7 +32,6 @@ function conjugateGradient(A, b, x, tolerance, max_iter) {
   if(!max_iter) {
     max_iter = Math.min(n, 20)
   }
-  console.log(tolerance, max_iter)
   if(!x) {
     if(b.buffer) {
       x = new b.constructor(b.buffer.slice(0))
