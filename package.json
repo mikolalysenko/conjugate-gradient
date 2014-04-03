@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "almost-equal": "~0.0.0",
-    "bits": "~0.1.0"
+    "bit-twiddle": "~0.0.1"
   },
   "devDependencies": {
     "csr-matrix": "~0.1.4",

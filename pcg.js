@@ -1,6 +1,6 @@
 "use strict"
 
-var bits = require("bits")
+var bits = require("bit-twiddle")
   , almostEqual = require("almost-equal")
 
 var R = new Float64Array(1024)
